@@ -1,0 +1,34 @@
+# Dependencias
+/node_modules/
+/.pnp
+.pnp.*
+
+# Compilados de Angular
+/.angular/
+/dist/
+/build/
+
+# Pruebas y cobertura
+/coverage/
+
+# Entornos y secretos
+.env*
+!.env.example
+
+# Logs de depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+*.pem
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# TypeScript cache
+*.tsbuildinfo
