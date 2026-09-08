@@ -296,7 +296,7 @@ export class InventarioService {
     const ruta = `productos/${nombreUnico}`;
 
     const { error } = await this.supabase.almacenamiento
-      .from('productos')
+      .from('imagenes')
       .upload(ruta, archivo, {
         cacheControl: '3600',
         upsert: false
@@ -308,7 +308,7 @@ export class InventarioService {
     }
 
     const { data: urlData } = this.supabase.almacenamiento
-      .from('productos')
+      .from('imagenes')
       .getPublicUrl(ruta);
 
     return urlData.publicUrl;

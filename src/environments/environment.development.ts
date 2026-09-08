@@ -1,13 +1,13 @@
 /**
  * Configuración de Entorno (Desarrollo Local)
  * ==========================================
- * Para trabajar en localhost con tus credenciales.
+ * Conectado directamente a tu base de datos de Supabase en vivo.
  */
 
 export const environment = {
   production: false,
-  supabaseUrl: 'https://tu-proyecto.supabase.co',
-  supabaseAnonKey: 'AQUI_VA_TU_CLAVE_ANONIMA',
+  supabaseUrl: 'https://irncdgkufmdqvtheozst.supabase.co',
+  supabaseAnonKey: 'sb_publishable_HK2dqAdP9dnTuhalH3WX7Q_GjQG59PT',
   adminPin: '1234',
   whatsappVendedor: '5215582258230'
 };
